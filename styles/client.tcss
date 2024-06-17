@@ -1,0 +1,103 @@
+#initial-container{
+    margin:3;
+    align: center middle;
+    border: heavy red;
+    layout: grid;
+    grid-size: 2;
+    grid-gutter: 2;
+    padding: 2;
+
+}
+
+#error-container{
+    margin:6;
+    align: center middle;
+    border: heavy red;
+    padding:1;
+}
+
+#send-btn , #close-btn{
+    margin-left:1;
+    margin-top:1;
+    column-span:2;
+    width: 100%
+    
+}
+
+Input{
+}
+
+Label{
+    margin-left:1;
+}
+
+#titleMensaje{
+    content-align-horizontal: center;
+}
+
+EnviarInfo{
+    layout: vertical;
+    width: 100%;
+}
+
+#contenedor{
+    margin: 1 0;
+    height:5;
+}
+
+#enviar{
+    width: 30%;
+    height: 60%;
+    align: center bottom;
+}
+
+#mensaje{
+    width: 70%;
+    height: 60%;
+}
+
+#titleMensaje{
+     content-align-horizontal: center;
+}
+
+
+#area{
+    height:100%;
+}
+
+#volver{
+
+  width: 60%;
+  margin-top: 1;
+}
+
+#center-volver{
+     content-align-horizontal: center;
+}
+
+#center-text{
+    border: ascii red; 
+
+    height: 40%;
+    width: 100%;
+    color: grey;
+
+}
+
+#contenedor_todo{
+    width: 100%;
+    layout: vertical;
+    align:center middle; 
+}
+
+#center-texto{
+    background: red 20%;
+    border: dashed red;
+    content-align-horizontal: center;
+}
+Horizontal{
+    margin-top:1;
+    height: 20%;
+    content-align: center middle;
+}
+
