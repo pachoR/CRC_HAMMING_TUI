@@ -1,0 +1,143 @@
+Screen {
+   layout: grid;
+    grid-size: 2;
+    grid-gutter: 2;
+    padding: 2;
+}
+#bienvenido{
+    width: 100%;
+    height: 100%;
+    column-span:2;
+    text-style: bold;
+    content-align: center bottom;
+    color: red;
+}
+#inicio{
+    width: 100%;
+    column-span:2;
+    text-style: bold;
+    content-align: center middle;
+}
+LoadingIndicator {
+    color: red;
+}
+
+BSOD {
+    color: red;
+    layout: grid;
+    grid-size: 2;
+    grid-gutter: 2;
+    
+}
+
+BSOD>Static {
+    width: 100%;
+}
+
+#title {
+     width: 100%;
+    height: 100%;
+    content-align-horizontal: center;
+    column-span:2;
+    text-style: reverse;
+}
+
+#ip{
+    width: 100%;
+    height: 100%;
+    column-span:2;
+    content-align-horizontal: center;
+    text-style: reverse;
+}
+
+#puerto{
+    width: 100%;
+    height: 100%;
+    column-span:2;
+    content-align-horizontal: center;
+}
+
+#any-key {
+    width: 100%;
+    height: 100%;
+    column-span:2;
+    content-align-horizontal: center;
+}
+LoadingIndicator, Button{
+    width: 100%;
+    height: 100%;
+    column-span:2;
+    content-align-horizontal: center;
+}
+
+#volver{
+ width: 100%;
+ height: 15%;
+}
+
+ChatServer{
+    layout: vertical;
+
+}
+
+#contenedor{
+    margin: 1 0;
+    height:3;
+}
+
+#enviar{
+    width: 30%;
+    height: 100%;
+}
+
+#mensaje{
+    width: 70%;
+    height: 100%;
+}
+
+#titleMensaje{
+     content-align-horizontal: center;
+}
+
+
+#area{
+    height:100%;
+}
+
+#center-texto{
+    background: red 20%;
+    border: dashed red;
+    content-align-horizontal: center;
+}
+
+#center-cliente{
+    background: red 10%;
+     border: ascii red;
+}
+
+#center-text{
+    margin-top: 2;
+    height:20%;
+    width: 100%;
+    content-align-vertical: middle;
+}
+#center-volver{
+     margin-top: 2;
+     content-align-horizontal: center;
+     height: 30%;
+}
+#volver{
+    height:50%;
+    margin-top:1;
+}
+#borrar{
+    height:50%;
+}
+#container{
+    height: 100%;
+    width: auto; 
+    content-align-vertical: middle;   
+}
+#recibir{
+    margin-left: 1;
+}
